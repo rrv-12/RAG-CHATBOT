@@ -1,0 +1,12 @@
+# Pinning versions to avoid compatibility issues
+streamlit==1.12.0
+langchain==0.1.2
+langchain_community==0.0.14  # Ensure compatibility with langchain
+langchain_core==0.1.14  # Updated to meet langchain's requirement
+python-dotenv==0.21.0
+langchain-huggingface==0.1.2
+langchain-qdrant==0.1.0
+langchain-ollama==0.1.0
+unstructured[pdf]==0.4.0  # Unstructured PDF processing, make sure this version is optimized
+onnx==1.16.1  # Ensure you have the version that works with your hardware/requirements
+qdrant-client==1.5.0  # Pinning to a stable version for better performance
