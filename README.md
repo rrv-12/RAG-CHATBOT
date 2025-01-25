@@ -19,10 +19,15 @@
 
 **Future considerations**
 1.) When I was going some research papers, I found out that instead of having a sequential flow of data we can make all preprocessing in parallel. This will allow to handle large pdf with many P&L tables.
+
 2.) Implement advanced prompt engineering and few-shot learning techniques to improve response quality.
+
 3.) Implemention of multilingual support for global enterprises handling financial data in different languages.
+
 4.) Support of voice-based financial queries using speech-to-text models.
+
 5.) Allow real-time financial trend analysis and anomaly detection in P&L statements.
+
 6.) Also Integration of financial forecasting models (e.g., ARIMA, LSTMs, Transformer-based models) for predictive insights will make the application muuch better.
 
 ## 📁 Directory Structure
