@@ -10,12 +10,12 @@
 
 ## 🖥️ Tech Stack
 
-- **[LangChain](https://langchain.readthedocs.io/)**: It is Utilized as the orchestration framework to manage the flow between different components, including embeddings creation, vector storage, and chatbot interactions.
-- **[Unstructured](https://github.com/Unstructured-IO/unstructured)**: Employed for robust PDF processing, enabling the extraction and preprocessing of text from uploaded PDF documents.
-- **[BGE Embeddings from HuggingFace](https://huggingface.co/BAAI/bge-small-en)**: Used to generate high-quality embeddings for the processed documents, facilitating effective semantic search and retrieval.
-- **[Qdrant](https://qdrant.tech/)**: A vector database running locally via Docker, responsible for storing and managing the generated embeddings for fast and scalable retrieval.
-- **[LLaMA 3.2 via Ollama](https://ollama.com/)**: Integrated as the local language model to power the chatbot, providing intelligent and context-aware responses based on the document embeddings.
-- **[Streamlit](https://streamlit.io/)**: The core framework for building the interactive web application, offering an intuitive interface for users to upload documents, create embeddings, and interact with the chatbot.
+- **[LangChain]**: It is Utilized as the orchestration framework to manage the flow between different components, including embeddings creation, vector storage, and chatbot interactions.
+- **[Unstructured]**: Employed for robust PDF processing, enabling the extraction and preprocessing of text from uploaded PDF documents.
+- **[BGE Embeddings from HuggingFace]**: Used to generate high-quality embeddings for the processed documents, facilitating effective semantic search and retrieval.
+- **[Qdrant]**: A vector database running locally via Docker, responsible for storing and managing the generated embeddings for fast and scalable retrieval.
+- **[LLaMA 3.2 via Ollama]**: Integrated as the local language model to power the chatbot, providing intelligent and context-aware responses based on the document embeddings.
+- **[Streamlit]**: The core framework for building the interactive web application, offering an intuitive interface for users to upload documents, create embeddings, and interact with the chatbot.
 
 **Future considerations**
 1.) When I was going some research papers, I found out that instead of having a sequential flow of data we can make all preprocessing in parallel. This will allow to handle large pdf with many P&L tables.
@@ -97,17 +97,5 @@ streamlit run new.py
 
 Note: If your main application file is named differently, replace new.py with your actual file name (e.g., app.py).
 
-This command will launch the app in your default web browser. If it doesn’t open automatically, navigate to the URL provided in the terminal (usually http://localhost:8501).
 
-
-### 🔗 Useful Links
-
-
-•	Streamlit Documentation: https://docs.streamlit.io/
-
-•	LangChain Documentation: https://langchain.readthedocs.io/
-
-•	Qdrant Documentation: https://qdrant.tech/documentation/
-
-•	ChatOllama Documentation: https://github.com/langchain-ai/langchain-llms#ollama
 ```
