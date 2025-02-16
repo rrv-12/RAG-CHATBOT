@@ -17,6 +17,9 @@
 - **[LLaMA 3.2 via Ollama]**: Integrated as the local language model to power the chatbot, providing intelligent and context-aware responses based on the document embeddings.
 - **[Streamlit]**: The core framework for building the interactive web application, offering an intuitive interface for users to upload documents, create embeddings, and interact with the chatbot.
 
+##Link for task-1: 
+https://colab.research.google.com/drive/1TyTAqyjg8tLl4VGNCRvq5sw3m6mGo94P#scrollTo=ohYCuvhyrjWX
+
 **Future considerations**
 
 1.) When I was going through some research papers, I found out that instead of having a sequential flow of data we can make all preprocessing in parallel. This will allow to handle large pdf with many P&L tables.
