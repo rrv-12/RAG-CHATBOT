@@ -82,7 +82,7 @@ conda activate RAG Based pdf chatbot
 
 2. Install Dependencies
 
-Once the environment is set up (whether venv or Conda), install the required dependencies using requirements.txt:
+Once the environment is ready (whether venv or Conda), install the required dependencies using requirements.txt:
 
 pip install -r requirements.txt
 
