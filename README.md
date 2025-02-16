@@ -18,7 +18,8 @@
 - **[Streamlit]**: The core framework for building the interactive web application, offering an intuitive interface for users to upload documents, create embeddings, and interact with the chatbot.
 
 **Future considerations**
-1.) When I was going some research papers, I found out that instead of having a sequential flow of data we can make all preprocessing in parallel. This will allow to handle large pdf with many P&L tables.
+
+1.) When I was going through some research papers, I found out that instead of having a sequential flow of data we can make all preprocessing in parallel. This will allow to handle large pdf with many P&L tables.
 
 2.) Implement advanced prompt engineering and few-shot learning techniques to improve response quality.
 
@@ -64,7 +65,7 @@ venv\Scripts\activate
 On macOS and Linux:
 
 python3 -m venv venv
-source venv/bin/activate
+venv/bin/activate
 
 Option 2: Using Anaconda
 
@@ -72,8 +73,6 @@ Follow these steps to create a virtual environment using Anaconda:
 
 	1.	Open the Anaconda Prompt.
 	2.	Create a new environment:
-
-conda create --name RAG_Based_pdf_chatbot python=3.9
 
 	3.	Activate the newly created environment:
 
