@@ -44,15 +44,13 @@ RAG_Based_pdf_chatbot/
 
 ## 🚀 Getting Started
 
-Follow these instructions to set up and run the Document Buddy App on your local machine.
+Follow these instructions to set up .
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/AIAnytime/Document-Buddy-App.git
-cd Document-Buddy-App
 
-2. Create a Virtual Environment
+1. Create a Virtual Environment
 
 You can either use Python’s venv or Anaconda to create a virtual environment for managing dependencies.
 
@@ -83,19 +81,12 @@ conda activate RAG Based pdf chatbot
 
 
 
-3. Install Dependencies
+2. Install Dependencies
 
 Once the environment is set up (whether venv or Conda), install the required dependencies using requirements.txt:
 
 pip install -r requirements.txt
 
-4. Run the App
-
-Start the Streamlit app using the following command:
-
-streamlit run new.py
-
-Note: If your main application file is named differently, replace new.py with your actual file name (e.g., app.py).
 
 
 ```
